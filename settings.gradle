@@ -1,0 +1,5 @@
+rootProject.name='TerminalApp'
+include ':android'
+include ':renderer'
+include ':core'
+include ':desktop'

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:D./TerminalApp/android/libs/natives.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/android/libs/natives.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

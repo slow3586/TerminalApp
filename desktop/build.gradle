@@ -1,0 +1,18 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':renderer')
+    implementation project(path: ':core')
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs "resources"
+        }
+    }
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

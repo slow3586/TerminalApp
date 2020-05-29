@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'D:\\TerminalApp\\renderer\\libs', include: ['*.aar', '*.jar'], exclude: [])
+
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
